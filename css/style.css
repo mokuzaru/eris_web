@@ -1129,7 +1129,7 @@ body {
 /*-------------------testimonial section---------------*/
 
 .imgBg #client-testimonial {
-  background: url(../images/background/roadmap_bg.jpg);
+  background: url(../images/team.png);
   color: #383838;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
