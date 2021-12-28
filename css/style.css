@@ -445,8 +445,6 @@ body {
 
 /* ? ---------------------------- */
 
-
-
 /* ? ----- REDES SOCIALES ----- */
 .redes-sociales .btn-red-social {
 	padding: 10px 0;
@@ -1337,7 +1335,6 @@ body {
 .imgBg .contact {
   background: url("../images/contactBg.jpg");
   background-size: cover;
-  color: #383838;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
 
@@ -1491,9 +1488,82 @@ footer {
   padding-top: 68px;
   margin-bottom: -70px;
 }
+footer .logo img {
+  height: 7%;
+  width: 7%;
+  
+}
+footer .scontainer {
+  padding: 70px 50px;
+  color: white;
+}
+
+footer h3 {
+  color: rgb(148, 144, 144);
+  margin: 5px 0 5px 0;
+  font-family: "Martel", serif;
+  font-size: 22px;
+}
+
+footer h5 {
+  color: rgb(148, 144, 144);
+  margin: 5px 0 5px 0;
+  font-family: "Martel", serif;
+  font-size: 22px;
+}
+
+footer li,
+footer p {
+  margin: 15px 0 10px 0;
+  color: rgb(255, 255, 255);
+  font-family: "Martel", serif;
+  
+}
+
+footer input {
+  padding: 10px;
+  background: none;
+  border: none;
+  width: 90%;
+}
+
+footer .input {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
+  width: 30%;
+}
+
+footer .input i {
+  margin: 15px;
+}
+footer .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+footer .social_media i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: rgb(255, 255, 255);
+  
+}
+footer .social_media i:hover {
+  border: 1px solid rgb(16, 48, 190);
+  color: rgb(16, 48, 190);
+}
 
 footer .copyright p {
   text-align: center;
   color: #ddd;
-  font-weight: 500;
+  font-weight: 100;
 }
