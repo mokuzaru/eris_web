@@ -34,7 +34,7 @@
 
 /*----------header--------*/
 nav {
-  height: 10vh;
+  height: 14vh;
   line-height: 10vh;
   background: rgb(169, 163, 163);
   text-align: center;
@@ -55,6 +55,8 @@ nav ul li {
 }
 
 nav li a {
+  font-family: "Martel", serif;
+  font-size: 22px;
   text-decoration: none;
   color: rgb(0, 0, 0);
   text-transform: capitalize;
@@ -71,7 +73,7 @@ nav li a:hover {
 }
 
 .account i {
-  color: #0c43fa;
+  color: #000000;
   margin: 30px 20px 0 0;
 }
 
@@ -104,7 +106,7 @@ nav li a:hover {
   .media_button i {
     display: block;
     margin-top: 20px;
-    background: #0c43fa;
+    background: #ffffff;
     padding: 10px;
     color: white;
     cursor: pointer;
@@ -134,7 +136,7 @@ button {
   margin: 20px 20px 0 0;
   border-radius: 50px;
   border: none;
-  background: #0c43fa;
+  background: rgb(31, 9, 233);
   color: white;
 }
 
@@ -144,17 +146,20 @@ button {
 }
 
 .btn1:hover {
-  background-color: rgb(14, 14, 14);
+  background-color: rgb(0, 0, 0);
 }
 
 .btn2 {
+  padding: 15px 50px;
+  margin: 20px 20px 0 0;
   border: 2px solid white;
-  background: white;
-  color: black;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .btn2:hover {
-  background-color: rgb(14, 14, 14);
+  background-color: rgb(0, 0, 0);
   color: #e3e3e3;
 }
 
@@ -196,17 +201,21 @@ button {
   margin-left: 10px;
 }
 .time_box h1:hover {
-  color: #0c43fa;
+  color: #00a716;
   font-size: 50px;
   margin-left: 10px;
 }
 
 .time_box span {
+  font-family: "Martel", serif;
+  font-size: 22px;
   font-size: 14px;
   margin-left: 15px;
 }
 
 .home h2 {
+  font-family: "Martel", serif;
+  font-size: 22px;
   font-size: 50px;
   margin: 20px 0 20px 0;
 }
@@ -228,6 +237,7 @@ button {
 }
 
 .heading h1 {
+  font-family: "Martel", serif;
   font-size: 40px;
   font-weight: 400;
 }
@@ -237,8 +247,9 @@ button {
   font-weight: bold;
   position: absolute;
   top: 0;
-  left: 42%;
+  left: 41%;
   font-size: 15px;
+  justify-content: center;
 }
 
 .heading .lines {
@@ -248,7 +259,7 @@ button {
 
 .heading .line {
   border: 1px solid #4f4d4d;
-  width: 45%;
+  width: 40%;
   height: 3px;
   border-left: none;
   position: absolute;
@@ -261,12 +272,12 @@ button {
   position: absolute;
   right: -1px;
   top: -7px;
-  color: white;
+  color: rgb(5, 5, 5);
 }
 
 .heading .line2 {
   right: 0;
-  left: 59%;
+  left: 60%;
   border-radius: none;
 }
 
@@ -276,8 +287,8 @@ button {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 35px;
 }
 
 .latest .scontainer {
@@ -286,7 +297,7 @@ button {
 }
 
 .latest .box {
-  background: #727272;
+  background: #a3a2a2;
   padding: 30px;
   border: 1px solid #e3e3e3;
   border-radius: 10px;
@@ -295,10 +306,18 @@ button {
 }
 
 .latest .box:hover {
-  background-color: rgb(25, 26, 26);
-  border: 1px solid #797979;
-  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #c5c2c2;
   color: white;
+}
+.latest .box button {
+  background-color: rgb(31, 9, 233);
+  cursor: pointer;
+}
+
+.latest .box button:hover{
+  cursor: pointer;
+  background-color: rgb(12, 162, 19);
 }
 
 .latest .img {
@@ -332,7 +351,10 @@ button {
   line-height: 50px;
 }
 
+
 .latest .detalis h2 {
+  font-family: "Martel", serif;
+  font-size: 22px;
   font-weight: 400;
   color: #ffffff;
   margin: 20px 0 20px 0;
@@ -348,6 +370,7 @@ button {
   font-size: 14px;
   color: grey;
 }
+
 
 .latest .detalis button {
   margin: 0;
@@ -447,17 +470,21 @@ ul {
 }
 
 .wrapper .text {
+  font-family: "Martel", serif;
+  font-size: 20px;
   padding: 100px 50px;
   color: white;
 }
 
 .wrapper h1 {
+  font-family: "Martel", serif;
   font-size: 40px;
   margin: 20px 0 20px 0;
   font-weight: 400;
 }
 
 .wrapper h3 {
+  font-family: "Martel", serif;
   font-size: 25px;
   margin-bottom: 30px;
   font-weight: 400;
@@ -470,36 +497,7 @@ ul {
 }
 
 /*----------Assesories--------*/
-/*----------shipping--------*/
-.shipping {
-  padding: 50px;
-  background: #032183;
-  color: white;
-}
 
-.shipping .img {
-  border: 1px solid white;
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 20px;
-  padding: 30px;
-}
-
-.shipping i {
-  font-size: 20px;
-}
-
-.shipping h3 {
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.shipping p {
-  opacity: 0.8;
-  line-height: 20px;
-}
-
-/*----------shipping--------*/
 /*----------footer--------*/
 footer {
   background: black;
@@ -545,11 +543,15 @@ footer .social_media i {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  border: 1px solid grey;
+  border: 1px solid rgb(255, 255, 255);
   text-align: center;
-  margin-top: 20px;
-  margin-right: 20px;
-  color: grey;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: rgb(255, 255, 255);
+}
+footer .social_media i:hover {
+  border: 1px solid rgb(16, 48, 190);
+  color: rgb(16, 48, 190);
 }
 
 /*----------footer--------*/
@@ -639,7 +641,4 @@ footer .social_media i {
     padding: 0;
   }
 
-  .shipping {
-    padding: 50px 0 50px 0;
-  }
 }
