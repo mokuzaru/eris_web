@@ -292,13 +292,13 @@ button {
 }
 
 .latest .scontainer {
-  padding: 50px;
+  padding: 60px;
   text-align: center;
 }
 
 .latest .box {
   background: #a3a2a2;
-  padding: 30px;
+  padding: 20px;
   border: 1px solid #e3e3e3;
   border-radius: 10px;
   transition: 0.5s;
