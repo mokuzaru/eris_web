@@ -480,7 +480,7 @@ body {
 
 /*---------------------About-------------------*/
 .imgBg #about {
-    background: url(../images/background/roadmap_bg.jpg);
+    background: url(../image/Post\ 2.png);
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
 }
@@ -1566,4 +1566,32 @@ footer .copyright p {
   text-align: center;
   color: #ddd;
   font-weight: 100;
+}
+
+.neon {
+	color: #fff;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+.neon2 {
+	color: #fff;
+	text-shadow:
+		0 0 5px rgb(156, 156, 156),
+		0 0 10px rgb(63, 64, 65),
+		0 0 20px rgb(54, 54, 54),
+		0 0 40px rgb(37, 37, 37),
+		0 0 80px rgb(36, 36, 36),
+		0 0 90px rgb(43, 43, 43),
+		0 0 100px rgb(41, 41, 41),
+		0 0 140px rgb(19, 18, 18),
+		0 0 180px rgb(0, 0, 0);
 }
